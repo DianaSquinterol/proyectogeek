@@ -1,0 +1,108 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(229, 235, 235);
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lato", sans-serif;
+    font-weight: 1000;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(90, 88, 89);
+}
+
+nav {
+    background-color: rgb(130, 160, 160);
+    width: 100%;
+}
+
+.menu .lista {
+    display: inline-block;
+}
+
+.lista-r {
+    float: right;
+}
+
+.lista a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    padding: 15px 50px;
+    display: block;
+}
+
+.lista a:hover {
+    background-color: rgb(59, 138, 138);
+}
+
+.imag {
+    margin-top: 20px;
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+}
+
+.parrafos {
+    text-align: justify;
+    margin: 10px;
+
+}
+
+h2 {
+    width: auto;
+    display: flex;
+}
+
+.parrafos::first-letter {
+    color: maroon;
+    justify-content: space-between;
+    border: 2px solid black;
+
+}
+
+
+.Tarjetaprincipal {
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+
+}
+
+.formulario {
+   width: 400px;
+   background: rgb(90, 88, 89);
+   padding: 30px;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 5px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+
+}
+
+.formulario h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.control{
+    width: 100%;
+    background: #d8d8d4;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid;
+}
